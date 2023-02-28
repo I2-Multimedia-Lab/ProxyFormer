@@ -2,7 +2,7 @@
 
 Created by [Shanshan Li](https://github.com/MarkLiSS), [Pan Gao]()\*, [Xiaoyang Tan](), [Mingqiang Wei]()
 
-[[arXiv]]() [[Dataset]](./DATASET.md) [[Models]](#pretrained-models) [[supp]](https://github.com/MarkLiSS/MyPapers/blob/main/Appendix_for_ProxyFormer.pdf)
+[[arXiv]]() [[Dataset]](./DATASET.md) [[Models]](#pretrained-models) [[supp]](https://github.com/MarkLiSS/MyPapers/blob/main/Appendix_for_ProxyFormer_camera_ready.pdf)
 
 This repository contains PyTorch implementation for __ProxyFormer: Proxy Alignment Assisted Point Cloud Completion with Missing Part Sensitive Transformer__ (Accepted by CVPR 2023).
 
