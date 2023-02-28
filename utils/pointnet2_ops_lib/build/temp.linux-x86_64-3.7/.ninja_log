@@ -1,0 +1,10 @@
+# ninja log v5
+0	15064	1658931498929661702	/home/lss/Project/PoinTr/utils/pointnet2_ops_lib/build/temp.linux-x86_64-3.7/pointnet2_ops/_ext-src/src/ball_query.o	ad15ea1f5172fcea
+1	15324	1658931499185657976	/home/lss/Project/PoinTr/utils/pointnet2_ops_lib/build/temp.linux-x86_64-3.7/pointnet2_ops/_ext-src/src/bindings.o	ceb5428682193f8b
+1	17635	1658931501501624238	/home/lss/Project/PoinTr/utils/pointnet2_ops_lib/build/temp.linux-x86_64-3.7/pointnet2_ops/_ext-src/src/group_points.o	22866c2a26cc3124
+1	19735	1658931503601593654	/home/lss/Project/PoinTr/utils/pointnet2_ops_lib/build/temp.linux-x86_64-3.7/pointnet2_ops/_ext-src/src/interpolate.o	f1ef9afa379e0933
+1	19834	1658931503701592200	/home/lss/Project/PoinTr/utils/pointnet2_ops_lib/build/temp.linux-x86_64-3.7/pointnet2_ops/_ext-src/src/sampling.o	8c73b19b37af6c49
+1	34132	1658931517997384080	/home/lss/Project/PoinTr/utils/pointnet2_ops_lib/build/temp.linux-x86_64-3.7/pointnet2_ops/_ext-src/src/group_points_gpu.o	bc58575b3e1973dc
+0	34815	1658931518681374128	/home/lss/Project/PoinTr/utils/pointnet2_ops_lib/build/temp.linux-x86_64-3.7/pointnet2_ops/_ext-src/src/ball_query_gpu.o	5826afdb949ddd7d
+1	35556	1658931519429363243	/home/lss/Project/PoinTr/utils/pointnet2_ops_lib/build/temp.linux-x86_64-3.7/pointnet2_ops/_ext-src/src/interpolate_gpu.o	617ac13796844030
+1	37491	1658931521361335132	/home/lss/Project/PoinTr/utils/pointnet2_ops_lib/build/temp.linux-x86_64-3.7/pointnet2_ops/_ext-src/src/sampling_gpu.o	c26ce1e92f674c40
