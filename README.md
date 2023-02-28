@@ -2,13 +2,13 @@
 
 Created by [Shanshan Li](https://github.com/MarkLiSS), [Pan Gao]()\*, [Xiaoyang Tan](), [Mingqiang Wei]()
 
-[[arXiv]](https://arxiv.org/abs/2108.08839) [[Dataset]](./DATASET.md) [[Models]](#pretrained-models) [[supp]](https://github.com/MarkLiSS/MyPapers/blob/main/Appendix_for_ProxyFormer.pdf)
+[[arXiv]]() [[Dataset]](./DATASET.md) [[Models]](#pretrained-models) [[supp]](https://github.com/MarkLiSS/MyPapers/blob/main/Appendix_for_ProxyFormer.pdf)
 
 This repository contains PyTorch implementation for __ProxyFormer: Proxy Alignment Assisted Point Cloud Completion with Missing Part Sensitive Transformer__ (Accepted by CVPR 2023).
 
 Problems such as equipment defects or limited viewpoints will lead the captured point clouds to be incomplete. Therefore, recovering the complete point clouds from the partial ones plays an vital role in many practical tasks, and one of the keys lies in the prediction of the missing part. In this paper, we propose a novel point cloud completion approach namely ProxyFormer that divides point clouds into existing (input) and missing (to be predicted) parts and each part communicates information through its proxies. Specifically, we fuse information into point proxy via feature and position extractor, and generate features for missing point proxies from the features of existing point proxies. Then, in order to better perceive the position of missing points, we design a missing part sensitive transformer, which converts random normal distribution into reasonable position information, and uses proxy alignment  to refine the missing proxies. It makes the predicted point proxies more sensitive to the features and positions of the missing part, and thus make these proxies more suitable for subsequent coarse-to-fine processes. Experimental results show that our method outperforms state-of-the-art completion networks on several benchmark datasets and has the fastest inference speed.
 
-![intro](figs/Pipeline2.pdf)
+<iframe src="[https://docs.google.com/gview?embedded=true&url=https://raw.githubusercontent.com/Theigrams/Mathematical-optimization/d304e27f613352b5d8240010cc58ddb4360ac48d/%E7%AC%AC%E4%B8%89%E6%AC%A1%E4%BD%9C%E4%B8%9A/%E6%9C%80%E4%BC%98%E5%8C%96%E7%AC%AC%E4%B8%89%E6%AC%A1%E4%BD%9C%E4%B8%9A.pdf](https://github.com/I2-Multimedia-Lab/ProxyFormer/blob/main/figs/Pipeline2.pdf)" style="width:800px; height:500px;" frameborder="0"></iframe>
 
 ## 🔥News
 - **2023-02-28** ProxyFormer is accepted by CVPR 2023.
@@ -119,15 +119,10 @@ bash ./scripts/train.sh 0 \
 
 ## Acknowledgements
 
-Our code is inspired by [PoinTr](https://github.com/yuxumin/PoinTr) and [SeedFormer](https://github.com/hrzhou2/seedformer)
+Our code is inspired by [PoinTr](https://github.com/yuxumin/PoinTr) and [SeedFormer](https://github.com/hrzhou2/seedformer). Thanks for their excellent works.
 
 ## Citation
 If you find our work useful in your research, please consider citing: 
 ```
-@inproceedings{yu2021pointr,
-  title={PoinTr: Diverse Point Cloud Completion with Geometry-Aware Transformers},
-  author={Yu, Xumin and Rao, Yongming and Wang, Ziyi and Liu, Zuyan and Lu, Jiwen and Zhou, Jie},
-  booktitle={ICCV},
-  year={2021}
-}
+
 ```
