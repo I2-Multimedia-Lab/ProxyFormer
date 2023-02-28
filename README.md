@@ -114,7 +114,9 @@ bash ./scripts/train.sh 0 \
 
 ### Completion Results on PCN and ShapeNet-55
 
+#### PCN
 ![results](figs/PCN_results.png)
+#### ShapeNet-55
 ![results](figs/ShapeNet55_results.png)
 ![results](figs/more_shapenet55_results.png)
 
