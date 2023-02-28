@@ -8,7 +8,7 @@ This repository contains PyTorch implementation for __ProxyFormer: Proxy Alignme
 
 Problems such as equipment defects or limited viewpoints will lead the captured point clouds to be incomplete. Therefore, recovering the complete point clouds from the partial ones plays an vital role in many practical tasks, and one of the keys lies in the prediction of the missing part. In this paper, we propose a novel point cloud completion approach namely ProxyFormer that divides point clouds into existing (input) and missing (to be predicted) parts and each part communicates information through its proxies. Specifically, we fuse information into point proxy via feature and position extractor, and generate features for missing point proxies from the features of existing point proxies. Then, in order to better perceive the position of missing points, we design a missing part sensitive transformer, which converts random normal distribution into reasonable position information, and uses proxy alignment  to refine the missing proxies. It makes the predicted point proxies more sensitive to the features and positions of the missing part, and thus make these proxies more suitable for subsequent coarse-to-fine processes. Experimental results show that our method outperforms state-of-the-art completion networks on several benchmark datasets and has the fastest inference speed.
 
-<iframe src="https://github.com/I2-Multimedia-Lab/ProxyFormer/edit/main/README.md" style="width:800px; height:500px;" frameborder="0"></iframe>
+<iframe src="https://github.com/I2-Multimedia-Lab/ProxyFormer/blob/main/figs/Pipeline2.pdf" style="width:800px; height:500px;" frameborder="0"></iframe>
 
 ## 🔥News
 - **2023-02-28** ProxyFormer is accepted by CVPR 2023.
