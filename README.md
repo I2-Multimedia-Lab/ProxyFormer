@@ -45,7 +45,7 @@ pip install -r requirements.txt
 *NOTE:* PyTorch >= 1.9 and GCC >= 4.9 are required.
 
 ```
-# Chamfer Distance
+# Using a bash to install them
 bash install.sh
 ```
 The solution for a common bug in chamfer distance installation can be found in Issue [#6] of PoinTr (https://github.com/yuxumin/PoinTr/issues/6)
