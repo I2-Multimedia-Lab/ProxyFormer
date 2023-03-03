@@ -2,7 +2,7 @@
 
 Created by [Shanshan Li](https://github.com/MarkLiSS), [Pan Gao]()\*, [Xiaoyang Tan](), [Mingqiang Wei]()
 
-[[arXiv]](https://arxiv.org/abs/2302.14435) [[Dataset]](./DATASET.md) [[Models]](#pretrained-models) [[supp]](https://github.com/MarkLiSS/MyPapers/blob/main/Appendix_for_ProxyFormer_camera_ready.pdf)
+[[arXiv]](https://arxiv.org/abs/2302.14435) [[Dataset]](./DATASET.md) [[supp]](https://github.com/MarkLiSS/MyPapers/blob/main/Appendix_for_ProxyFormer_camera_ready.pdf)
 
 This repository contains PyTorch implementation for __ProxyFormer: Proxy Alignment Assisted Point Cloud Completion with Missing Part Sensitive Transformer__ (Accepted by CVPR 2023).
 
@@ -14,14 +14,6 @@ Problems such as equipment defects or limited viewpoints will lead the captured 
 - **2023-02-28** ProxyFormer is accepted by CVPR 2023.
 - **2022-11-05** ProxyFormer outperforms state-of-the-art completion networks on several benchmark datasets and has the fastest inference speed (PCN: CD 6.77 & DCD 0.577 etc.).
 
-## Pretrained Models
-
-We provide pretrained ProxyFormer models:
-| dataset  | url| performance |
-| --- | --- |  --- |
-| ShapeNet-55 | [[[BaiDuYun](https://pan.baidu.com/s/1ZQf5XKgttZG0hZtDv9C_Vw)] (code:htzu) | CD = 0.93e-3| DCD = 0.588e-3|
-| ShapeNet-34 | [[[BaiDuYun](https://pan.baidu.com/s/1sEo9F_UTrxBXyjD6pQ1Ydw)] (code:ocdl ) | CD = 1.42e-3| DCD = 0.583e-3|
-| PCN |  [[[BaiDuYun](https://pan.baidu.com/s/1ISsmIkBYGNoJSnXKWAe_Ng)] (code:2ip6) | CD = 6.77e-3| DCD = 0.577e-3|
 
 ## Usage
 
